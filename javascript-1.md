@@ -4,10 +4,10 @@
     - c = ?
     - d = ?
 
-        var a = 4;
-        var b = a;
-        var c = b * 4;
-        var d = b;
+            var a = 4;
+            var b = a;
+            var c = b * 4;
+            var d = b;
   
 1. Question 2
 1. Question 3
