@@ -42,4 +42,45 @@
         val retValue = foo(values);
         console.log("Returned value is " + retValue);
         
-1. Object
+1. Using variable 'menu', how will you 
+    - print out what's for lunch on Friday ? (Hint. console.log('...') function prints the output)
+    - Write code to swap Saturday and Sunday lunch since Chick-fill-e is closed on Saturday.
+
+            var menu = {
+                'Mon' : {
+                   'breakfast' : 'pohe',
+                   'lunch' : 'eggs',
+                   'dinner' : 'khichadi'
+                },
+                'Tue' : {
+                    'breakfast' : 'eggs',
+                    'lunch' : 'salmon',
+                    'dinner' : 'salad'
+                },
+                'Wed' : {
+                    'breakfast' : 'eggs',
+                    'lunch' : 'chicken',
+                    'dinner' : 'daal-rice'
+                },
+                'Thu' : {
+                    'breakfast' : 'oats',
+                    'lunch' : 'daal-rice',
+                    'dinner' : 'chicken'
+                },
+                'Fri' : {
+                    'breakfast' : 'pohe',
+                    'lunch' : 'pasta',
+                    'dinner' : 'daal-rice'
+                },
+                'Sat' : {
+                    'breakfast' : 'eggs',
+                    'lunch' : 'veggie-grill',
+                    'dinner' : 'khichadi'
+                },
+                'Sun' : {
+                    'breakfast' : 'eggs',
+                    'lunch' : 'Chick-fill-e',
+                    'dinner' : 'noodles'
+                }
+            }
+
