@@ -1,17 +1,11 @@
 # Coding quiz - 1
 
 1. How will you represent/store the current temperature in code ?
-  
-  
-  
-  
+    
 1. Temperature readings get done once per hour. How will you model hourly temperatures in a single day ?
   
-  
-   
-  
 1. Find the bug in this code. What's missing ?
-    - sumEvens([2, 4, 5, 6, 8])
+    > sumEvens([2, 4, 5, 6, 8])
 
             function sumEvens(nums) {
               var agg = 0;
@@ -25,7 +19,7 @@
             }
 
 1. What's the value of this expression ?
-    - om(namah(shivay(8)))
+    > om(namah(shivay(8)))
               
 
            function om(n) {
@@ -39,18 +33,12 @@
            }
 
 1. What is the decimal value of a binary number `1010` ?  
-   Hint: 245 decimal is 2 * 10^^2 + 4 * 10^^1 + 5 * 10^0
-
-  
-    
+    >   Hint: 245 decimal is 2 * 10^^2 + 4 * 10^^1 + 5 * 10^0
 
 1. How will you represent/store a point in 2D space (x, y coordinates) ?
-  
-  
-  
-  
+   
 1. What's the return value of the following expression ?
-    - justDoItForNike("shoes")
+    > justDoItForNike("shoes")
 
 
             function justDoItForNike(item) {
@@ -61,7 +49,7 @@
                 price = 100;
                 console.log("Checking out shoes. Please pay " + price + " amount")
               } else {
-                console.log("invalid item. But please pay " + price + "anyways")
+                console.log("Invalid item. But please pay " + price + "anyways")
               }
             }
 
