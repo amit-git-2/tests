@@ -9,7 +9,7 @@
               var result = []
               var i = 0
               while (i < arr1.length) {
-                result.push(arr1[i] + arr2[0])
+                result.push(arr1[i] + arr2[1])
                 i++
               }
               return result
